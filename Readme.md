@@ -45,3 +45,23 @@ Es usar las etiquetas especificas para cada situacion correspondiente , si quere
 - Hijo Directo --> `div > p`
 - Elemento Adyacente --> `div + p`
 - General de hermansos --> `div ~ p`
+
+---
+## PseudoClases
+Nos permite captar las acciones del usuario para realizar un determinado accion, por ejemplo el hover si pasamos el mouse por ese campo realiza tal accion.
+- :active
+- :focus
+- :hover
+- :nth-child(n)
+
+[+PseudoClases](https://css-tricks.com/pseudo-class-selectors/)
+## PseudoElementos
+Nor permite llegar a ciertos elementos de HTML que no son accesibles con selectores
+- ::after
+- ::before
+- ::first-letter
+- ::placeholder
+
+[+PseudoElementos](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
+
+---
