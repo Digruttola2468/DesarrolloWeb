@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p {
+            color: yellow;
+        }
+
+        div>div {
+            background-color: aqua;
+        }
+
+        div~p {
+            color: powderblue;
+        }
+
+        section+div {
+            color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <div>
+        <p>Descendientes</p>
+        <div>
+            Hijo Directo
+            <p>Descendientes</p>
+            <div>
+                Hijo Directo
+            </div>
+        </div>
+    </div>
+    <p>General Hermanos</p>
+    <p>General Hermanos</p>
+
+    <section>
+        Texto
+    </section>
+    <div>
+        Elemento Adyacente
+    </div>
+
+</body>
+
+</html>

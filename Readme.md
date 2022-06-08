@@ -25,4 +25,23 @@ Es usar las etiquetas especificas para cada situacion correspondiente , si quere
 
 **Listas**: `<ul> <li> <ol>`
 
-https://htmlreference.io/
+
+[+Etiquetas HTML](https://htmlreference.io/)
+
+---
+## Tipos de selectores mas usados
+- DE tipo     -->    `div{}`
+- De clase    -->    `.elemento{}`
+- De ID       -->    `#id-del-elemento`
+- De Atributo -->    `a[href=""]{}`
+- Universal   -->    `*{}`
+<br>
+
+[Colores HTML](https://htmlreference.io/)
+
+
+### Selectores Combinadores
+- Descendientes --> `div p`
+- Hijo Directo --> `div > p`
+- Elemento Adyacente --> `div + p`
+- General de hermansos --> `div ~ p`
