@@ -95,5 +95,9 @@ Es el tipo de visualizacion que tienen los elementos. Los elementos en linea no 
 - Block
 - Inline
 - Inline-block
-- Flex
+- FlexBox
 - Grid
+
+[FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+[Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
