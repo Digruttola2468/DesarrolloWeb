@@ -28,8 +28,9 @@ Es usar las etiquetas especificas para cada situacion correspondiente , si quere
 
 [+Etiquetas HTML](https://htmlreference.io/)
 
----
-## Tipos de selectores mas usados
+<br>
+
+# Tipos de selectores mas usados
 - DE tipo     -->    `div{}`
 - De clase    -->    `.elemento{}`
 - De ID       -->    `#id-del-elemento`
@@ -56,7 +57,7 @@ Nos permite captar las acciones del usuario para realizar un determinado accion,
 
 [+PseudoClases](https://css-tricks.com/pseudo-class-selectors/)
 ## PseudoElementos
-Nor permite llegar a ciertos elementos de HTML que no son accesibles con selectores
+Nor permite llegar a ciertos elementos de HTML que no son accesibles con selectores.
 - ::after
 - ::before
 - ::first-letter
@@ -64,4 +65,27 @@ Nor permite llegar a ciertos elementos de HTML que no son accesibles con selecto
 
 [+PseudoElementos](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
 
----
+
+# CSS (Cascading Style Sheet)
+Cascaca significa que el orden de las reglas en CSS importa.
+```CSS
+h1 {
+    color: red;
+}
+h1 {
+    color: blue;
+}
+/*Cual se mostrara primero??*/
+```
+## Especifidad
+Es la prioridad que tiene un elemento de css por encima del otro
+- !important (10000 puntos) `color: red !important;`
+- estilo en linea (1000 puntos) ej: `<h1 style="color:red;">texto</h1>`
+- #id (100 puntos)
+- clases, atributos y pseudoClases (10 puntos)
+- elementos y pseudoElementos (1 punto)
+- selector universal (0 punto)
+
+Si mostramos que elemento tiene mayor relevancia , se mostraria con puntos 
+
+[Calcular la especifidad](https://specificity.keegan.st/)
