@@ -89,3 +89,11 @@ Es la prioridad que tiene un elemento de css por encima del otro
 Si mostramos que elemento tiene mayor relevancia , se mostraria con puntos 
 
 [Calcular la especifidad](https://specificity.keegan.st/)
+
+# Tipos de Display
+Es el tipo de visualizacion que tienen los elementos. Los elementos en linea no tienen propiedades de tipo Block
+- Block
+- Inline
+- Inline-block
+- Flex
+- Grid
