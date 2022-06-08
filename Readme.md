@@ -101,3 +101,9 @@ Es el tipo de visualizacion que tienen los elementos. Los elementos en linea no 
 [FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 [Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+
+
+# Modelo de caja
+Todas las cajas tienen un **Margin** , **Border** , **Padding** y un **Content**. 
+
+![image](https://blog.hubspot.com/hs-fs/hubfs/Google%20Drive%20Integration/Update%20css%20margin%20vs%20padding-2.png?width=650&name=Update%20css%20margin%20vs%20padding-2.png)
