@@ -67,7 +67,7 @@ Nor permite llegar a ciertos elementos de HTML que no son accesibles con selecto
 
 
 # CSS (Cascading Style Sheet)
-Cascaca significa que el orden de las reglas en CSS importa.
+Cascada significa que el orden de las reglas en CSS importa.
 ```CSS
 h1 {
     color: red;
@@ -107,3 +107,6 @@ Es el tipo de visualizacion que tienen los elementos. Los elementos en linea no 
 Todas las cajas tienen un **Margin** , **Border** , **Padding** y un **Content**. 
 
 ![image](https://blog.hubspot.com/hs-fs/hubfs/Google%20Drive%20Integration/Update%20css%20margin%20vs%20padding-2.png?width=650&name=Update%20css%20margin%20vs%20padding-2.png)
+
+# Colapso de margenes
+Sucede cuando hay dos elementos bloque de forma vertical y se basa en no respetar el margen que establecemos nosotros , por ejemplo si en cada bloque colocamos `margin:20px` la distancia entre bloque es de 40px pero el resultado es 20px. No sucede cuando el contenedor es de Flexbox , Grid o elementos que no sean de bloque y el resultado mostrara una distancia de 40px.
