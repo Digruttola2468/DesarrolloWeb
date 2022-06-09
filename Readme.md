@@ -124,3 +124,7 @@ Tenemos diferentes tipos de position:
 
 ## Z-INDEX y el contexto de apilamiento
 Al cambiar el orden de las etiquetas , uno aparece por encima de otro , por ende importa la jerarquia interna para determinar que se muestra primero. Z-Index funciona con determinados `position:`. 
+
+---
+#### Para mas informacion de propiedades en CSS
+[Propiedades CSS](https://cssreference.io/)
