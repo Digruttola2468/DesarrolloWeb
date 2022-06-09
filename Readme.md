@@ -121,3 +121,6 @@ Tenemos diferentes tipos de position:
 - Static
 - initial
 - inherital
+
+## Z-INDEX y el contexto de apilamiento
+Al cambiar el orden de las etiquetas , uno aparece por encima de otro , por ende importa la jerarquia interna para determinar que se muestra primero. Z-Index funciona con determinados `position:`. 
