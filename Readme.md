@@ -110,3 +110,14 @@ Todas las cajas tienen un **Margin** , **Border** , **Padding** y un **Content**
 
 # Colapso de margenes
 Sucede cuando hay dos elementos bloque de forma vertical y se basa en no respetar el margen que establecemos nosotros , por ejemplo si en cada bloque colocamos `margin:20px` la distancia entre bloque es de 40px pero el resultado es 20px. No sucede cuando el contenedor es de Flexbox , Grid o elementos que no sean de bloque y el resultado mostrara una distancia de 40px.
+
+# Posicionamiento
+Nos ayuda a ubicar los elementos en una posicion determinada
+Tenemos diferentes tipos de position: 
+- Relative
+- Absolute
+- Fixed
+- Sticky
+- Static
+- initial
+- inherital
