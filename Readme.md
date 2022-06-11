@@ -128,3 +128,11 @@ Al cambiar el orden de las etiquetas , uno aparece por encima de otro , por ende
 ---
 #### Para mas informacion de propiedades en CSS
 [Propiedades CSS](https://cssreference.io/)
+
+# Unidades de medidas
+### Absolutos
+Medidas que no dependen de nadie mas para ser ellas mismas
+`Px(mas comun) Pt Pc in cm mm`
+### Relativos
+Las medidas relativas dependen de algo para poder calcular su medida, por ejemplo, los porcentajes dependen del elemento padre, los em rem dependen del font-size, los vw y vh dependen del tamaño del viewport. 
+`rem em vw vh vmin vmax ex ch`
