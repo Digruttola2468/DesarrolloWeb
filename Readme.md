@@ -136,3 +136,6 @@ Medidas que no dependen de nadie mas para ser ellas mismas
 ### Relativos
 Las medidas relativas dependen de algo para poder calcular su medida, por ejemplo, los porcentajes dependen del elemento padre, los em rem dependen del font-size, los vw y vh dependen del tamaño del viewport. 
 `rem em vw vh vmin vmax ex ch`
+
+# Responsive Design
+Cambiar los estilos de nuestra pagina en determinados tamaños , ya sea mostrar por celular , mostrar por una pantalla pequeña, etc.
