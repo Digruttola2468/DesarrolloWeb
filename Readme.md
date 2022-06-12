@@ -2,7 +2,7 @@
 Es usar las etiquetas especificas para cada situacion correspondiente , si queremos mostrar algo abajo de la pagina se usa `<flooter>`, usar las etiquetas correctas nos ayudara a
 <br>
 - Tener un codigo accesible
-- Mejora tu posicionamiento SEO 
+- Mejorar tu posicionamiento SEO 
 - Codigo mas claro
 <br>
 
@@ -27,7 +27,6 @@ Es usar las etiquetas especificas para cada situacion correspondiente , si quere
 
 
 [+Etiquetas HTML](https://htmlreference.io/)
-
 <br>
 
 # Tipos de selectores mas usados
@@ -45,7 +44,7 @@ Es usar las etiquetas especificas para cada situacion correspondiente , si quere
 - Descendientes --> `div p`
 - Hijo Directo --> `div > p`
 - Elemento Adyacente --> `div + p`
-- General de hermansos --> `div ~ p`
+- General de hermanos --> `div ~ p`
 
 ---
 ## PseudoClases
@@ -57,7 +56,7 @@ Nos permite captar las acciones del usuario para realizar un determinado accion,
 
 [+PseudoClases](https://css-tricks.com/pseudo-class-selectors/)
 ## PseudoElementos
-Nor permite llegar a ciertos elementos de HTML que no son accesibles con selectores.
+Nos permite llegar a ciertos elementos de HTML que no son accesibles con selectores.
 - ::after
 - ::before
 - ::first-letter
@@ -80,8 +79,8 @@ h1 {
 ## Especifidad
 Es la prioridad que tiene un elemento de css por encima del otro
 - !important (10000 puntos) `color: red !important;`
-- estilo en linea (1000 puntos) ej: `<h1 style="color:red;">texto</h1>`
-- #id (100 puntos)
+- estilo en linea (1000 puntos) `<h1 style="color:red;">texto</h1>`
+- #id (100 puntos)  `#id{}`
 - clases, atributos y pseudoClases (10 puntos)
 - elementos y pseudoElementos (1 punto)
 - selector universal (0 punto)
@@ -91,7 +90,7 @@ Si mostramos que elemento tiene mayor relevancia , se mostraria con puntos
 [Calcular la especifidad](https://specificity.keegan.st/)
 
 # Tipos de Display
-Es el tipo de visualizacion que tienen los elementos. Los elementos en linea no tienen propiedades de tipo Block
+Es el tipo de visualizacion que tienen los elementos. Los elementos en linea no tienen propiedades de tipo Block.
 - Block
 - Inline
 - Inline-block
@@ -113,17 +112,18 @@ Sucede cuando hay dos elementos bloque de forma vertical y se basa en no respeta
 
 # Posicionamiento
 Nos ayuda a ubicar los elementos en una posicion determinada
-Tenemos diferentes tipos de position: 
+Tenemos diferentes tipos de posicionamiento: 
 - Relative
 - Absolute
 - Fixed
 - Sticky
 - Static
 - initial
-- inherital
+
+![image](https://www.csssolid.com/images/csspositions/css-position-all.png)
 
 ## Z-INDEX y el contexto de apilamiento
-Al cambiar el orden de las etiquetas , uno aparece por encima de otro , por ende importa la jerarquia interna para determinar que se muestra primero. Z-Index funciona con determinados `position:`. 
+Al cambiar el orden de las etiquetas , uno aparece por encima de otro , por ende importa la jerarquia interna para determinar que se muestra primero. Z-Index funciona con determinados `position:` . 
 
 ---
 #### Para mas informacion de propiedades en CSS
@@ -131,11 +131,37 @@ Al cambiar el orden de las etiquetas , uno aparece por encima de otro , por ende
 
 # Unidades de medidas
 ### Absolutos
-Medidas que no dependen de nadie mas para ser ellas mismas
-`Px(mas comun) Pt Pc in cm mm`
+Medidas que no dependen de nadie mas para ser ellas mismas <br>
+`px pt pc in cm mm`
 ### Relativos
-Las medidas relativas dependen de algo para poder calcular su medida, por ejemplo, los porcentajes dependen del elemento padre, los em rem dependen del font-size, los vw y vh dependen del tamaño del viewport. 
+Las medidas relativas dependen de algo para poder calcular su medida, por ejemplo, los porcentajes dependen del elemento padre, los em rem dependen del font-size, los vw y vh dependen del tamaño del viewport. <br>
 `rem em vw vh vmin vmax ex ch`
 
 # Responsive Design
 Cambiar los estilos de nuestra pagina en determinados tamaños , ya sea mostrar por celular , mostrar por una pantalla pequeña, etc.
+```css
+    /*Desde 200 para arriba*/
+    @media (min-width: 200px) {
+
+    }
+    /*Hasta 200 para abajo*/
+    @media (max-width: 200px) {
+        
+    }
+```
+# Arquitecturas CSS
+Los objetivos a tener en cuenta a la hora de realizar una buena arquitectura es que sea predecible, reutilizable, mantenible y escalable. Las Buenas practicas para que se cumpla los objetivos serian los lineamientos, documentacion, estandares y componentes. <br>
+[Arquitectura BEM](https://platzi.com/blog/bem/)
+
+## Realizar Retos
+https://www.frontendmentor.io/
+
+https://platzi.com/comunidad/platziwebchallange-semana-1-2/
+
+https://coderbyte.com/challenges
+
+https://www.codewell.cc/challenges
+
+https://codepen.io/
+
+https://cssbattle.dev/
